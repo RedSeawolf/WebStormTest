@@ -1,0 +1,25 @@
+<html>
+ <head>
+  <title>访问相关节点</title>
+ </head>
+ <body>
+    <p>Hello World!!</p>
+    <p>Isn't this excting?</p>
+    <p>You'r learning to use the DOM!</p>
+
+	<script type="text/javascript">
+	    var oHtml=document.documentElement;
+	     /*var oHead=oHtml.firstChild;
+	     var oBody=oHtml.lastChild; */
+		
+		/*var oHead=oHtml.childNodes[0];
+		var oBody=oHtml.childNodes[2];*/
+
+		var oHead=oHtml.childNodes.item(0);
+		var oBody=oHtml.childNodes.item(2);
+
+        alert(oHead);
+		alert(oBody);
+	</script>
+ </body>
+</html>

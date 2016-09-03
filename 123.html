@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>onclick事件</title>
+	<script type="text/javascript">
+		// function t1() {
+		// 	var col = document.getElementById("color");
+		// 	col.children[0].style.background="#EE1414";
+		// }
+
+       //  function getValue()
+       //  {
+       //     var x=document.getElementById("myHeader");
+       //    alert(x.innerHTML);
+       // }
+
+	   //     function getElements()
+		  // {
+			 //  var x=document.getElementsByName("myInput");
+			 //  // alert(x.length);
+			 //  alert(x.length);
+		  // }
+
+ 
+		 function getElements()
+		  {
+			  var x=document.getElementsByTagName("input");
+			  alert(x.length);
+		  }
+
+	</script>
+</head>
+<body>
+	
+		<!-- <div id="color">
+			<li>red</li>
+			<li>green</li>
+			<li>blue</li>
+		</div>
+		<input type="button" value="changecolors" onclick="t1();" /> -->
+        
+        <!-- <h1 id="myHeader" onclick="getValue();">这是标题</h1>
+        <p>点击标题，会提示出它的值。</p> -->
+
+		<!-- <input name="myInput" type="text" size="20" /><br />
+		<input name="myInput" type="text" size="20" /><br />
+		<input name="myInput" type="text" size="20" /><br />
+		<br />
+		<input type="button" onclick="getElements()"
+		value="How many elements named 'myInput'?" /> -->
+
+		<input name="myInput" type="text" size="20" /><br />
+		<input name="myInput" type="text" size="20" /><br />
+		<input name="myInput" type="text" size="20" /><br />
+		<br />
+		<input type="button" onclick="getElements()"
+		value="How many input elements?" />
+</body>
+</html>

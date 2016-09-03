@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+	<p id="p1" sytle="color:red" title="Tianguanghong">Hello World!!</p>
+
+	<script type="text/javascript">
+	     var oP=document.getElementsByTagName("p")[0];
+		var sId=oP.attributes.getNamedItem("id").nodeValue="newId";
+		// var sId=oP.attributes.item(2).nodeValue;
+		// var sId=oP.attributes.item(1).nodeValue;
+		alert(sId);
+	</script>
+</body>
+</html>

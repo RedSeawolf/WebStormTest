@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head >
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" >
+<title >Document</title >
+	<script type="text/javascript">
+		function tui(){
+          window.history.back(-1);
+		}
+
+		function much(){
+			alert(window.history.length);
+		}
+
+		function goHead(){
+			history.forward(1);
+		}
+	</script>
+</head >
+<body >
+  <input type="button" value="多少个历史记录" onclick="much();"/>
+  <input type="button" value="后退" onclick="tui();"/>
+  <input type="button" value="往前" onclick="goHead();"/>
+</body >
+</html >
